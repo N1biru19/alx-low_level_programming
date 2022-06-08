@@ -2,34 +2,30 @@
 
 /**
  *
- *  * main - Entry point
+ *  * main - prints the string "_putchar" from a character array.
  *
- *   *
+ *   * Return: 0 on success.
  *
- *    * Return: Always 0 (Success)
- *
- *     */
+ *    */
 
 int main(void)
 
 {
 
-		char *sh = "main.h";
+		char c[] = "Holberton";
+
+			int i;
 
 
 
-			while (*sh)
+				for (i = 0; i < 9; i++)
 
-					{
+						{
 
-								_putchar(*sh);
+									_putchar(c[i]);
 
-										sh++;
+										}
 
-											}
+					_putchar('\n');
 
-				_putchar('\n');
-
-
-
-					return (0);
+						return (0);
