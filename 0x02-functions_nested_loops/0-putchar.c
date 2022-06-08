@@ -1,3 +1,4 @@
+#include "stdio.h"
 #include "main.h"
 
 /**
@@ -12,7 +13,7 @@ int main(void)
 
 {
 
-		char c[] = "Holberton";
+		char c[] = "main"
 
 			int i;
 
